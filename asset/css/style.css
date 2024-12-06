@@ -224,6 +224,15 @@ section {
     }
 }
 
+@media only screen and (max-width: 320px) {
+    .text-bg-unique::before {
+        width: 100px;
+        height: 20px;
+        transform: translate(-40%, -60%) rotate(-2deg);
+
+    }
+}
+
 /* hero section--ends */
 
 /* brand section starts*/
@@ -437,6 +446,48 @@ section {
     background: white;
 }
 
+@media only screen and (max-width: 600px) {
+    .payday-section {
+        margin-top: 50px;
+        padding: 0 8px;
+    }
+
+    .payday-container {
+        padding: 0;
+        padding-top: 32px;
+
+
+    }
+
+    .payday-img {
+        max-width: 200px;
+    }
+
+    .payday-content-container {
+        padding-right: 16px;
+    }
+
+    .payday-content-container h1 {
+        font-size: 20px;
+        line-height: 30px;
+
+    }
+
+    .text-bg-payday::before {
+        width: 90px;
+        height: 30px;
+    }
+
+    .payday-content-container p {
+        font-size: 8px;
+    }
+
+    .payday-content-container {
+        width: 32vw;
+        gap: 8px;
+    }
+}
+
 /* payday ad ends */
 
 /* young favorite starts */
@@ -486,7 +537,7 @@ section {
     }
 
     .favourites-card-img {
-        width: 300px;
+        width: 230px;
         overflow-x: visible;
     }
 
@@ -682,6 +733,18 @@ section {
         padding: 8px;
     }
 
+}
+
+@media only screen and (max-width: 375px) {
+    .send-container {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .send-container {
+        width: 220px;
+    }
 }
 
 /* newsletter ends*/
