@@ -456,6 +456,14 @@ section {
     .heading {
         font-size: 24px;
     }
+
+    .card-text h3 {
+        font-size: 16px;
+    }
+
+    .card-text p {
+        font-size: 14px;
+    }
 }
 
 /* young favorite ends */
