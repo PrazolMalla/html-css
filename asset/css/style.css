@@ -169,12 +169,15 @@ section {
 @media only screen and (max-width: 600px) {
     .hero-section {
         margin: 0 16px;
-        padding: 8px 8px 0 8px;
+        padding: 8px 8px 0 0;
         border-radius: 24px;
+        max-height: 176px;
+
     }
 
     .hero-img {
-        max-width: 200px;
+        margin-top: 22px;
+        max-width: 174px;
     }
 
     .hero-section-heading {
@@ -214,7 +217,7 @@ section {
     }
 
     .hero-img-section {
-        height: 180px;
+        max-height: 176px;
 
     }
 
@@ -282,7 +285,7 @@ section {
     }
 
     .brand-img {
-        width: 60px;
+        max-height: 29px;
     }
 
 }
@@ -354,7 +357,7 @@ section {
     }
 
     .card-img {
-        width: 300px;
+        width: 254px;
         overflow-x: visible;
     }
 
@@ -450,17 +453,25 @@ section {
     .payday-section {
         margin-top: 50px;
         padding: 0 8px;
+        /* max-width: 375px; */
     }
 
     .payday-container {
         padding: 0;
-        padding-top: 32px;
+        padding-top: 8px;
+        /* padding-bottom: 8px; */
 
 
     }
 
+    .payday-img-container {
+        max-width: 151px;
+
+    }
+
     .payday-img {
-        max-width: 200px;
+        padding-top: 16px;
+        max-width: 151px;
     }
 
     .payday-content-container {
@@ -512,9 +523,9 @@ section {
         padding: 0 16px;
     }
 
-    .card-container {
+    .favourites-section .card-container {
         overflow-x: scroll;
-        gap: 16px;
+        gap: 48px;
         margin-top: 16px;
     }
 
@@ -537,7 +548,7 @@ section {
     }
 
     .favourites-card-img {
-        width: 230px;
+        width: 310px;
         overflow-x: visible;
     }
 
@@ -628,9 +639,15 @@ section {
         line-height: 30px;
     }
 
-    .download-icons {
+    /* .download-icons {
         width: 270px;
+    } */
+
+    .store-icon {
+        max-height: 43px;
     }
+
+
 
 
 }
@@ -705,7 +722,7 @@ section {
     }
 
     .news-letter-container {
-        max-width: 80%;
+        max-width: 312px;
     }
 
     .news-letter-container .heading {
