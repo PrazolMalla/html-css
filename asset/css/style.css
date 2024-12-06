@@ -251,11 +251,15 @@ section {
 
 @media only screen and (max-width: 600px) {
 
+    .brand-list::-webkit-scrollbar {
+        display: none;
+    }
 
     .brand-section {
         height: 14vh;
         padding: 0px 16px;
         overflow-x: scroll;
+
     }
 
     .brand-list {
@@ -404,10 +408,54 @@ section {
     padding: 0;
 }
 
-
 .favourites-section {
     margin-top: 120px;
     padding: 0px 64px;
+}
+
+@media only screen and (max-width: 600px) {
+    .favourites-section {
+        margin-top: 60px;
+        padding: 0 16px;
+    }
+
+    .card-container {
+        overflow-x: scroll;
+        gap: 16px;
+        margin-top: 16px;
+    }
+
+    .card-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .favourites-container {
+        overflow-x: scroll;
+    }
+
+
+    .favourites-card {
+        width: 80%;
+        overflow-x: visible;
+    }
+
+    .favourites-card-img-container {
+        overflow-x: visible;
+    }
+
+    .favourites-card-img {
+        width: 300px;
+        overflow-x: visible;
+    }
+
+    .card {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
 }
 
 /* young favorite ends */
