@@ -447,6 +447,45 @@ section {
     width: 670px;
 }
 
+@media only screen and (max-width: 600px) {
+    .mobile-app-section {
+        margin-top: 80px;
+        padding: 0px 16px;
+    }
+
+    .mobile-app-container {
+        justify-content: center;
+    }
+
+    .mobile-app-img {
+        display: none;
+    }
+
+    .mobile-app-info-container {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .mobile-app-info-container p {
+        width: 60%;
+        font-size: 12px;
+    }
+
+    .mobile-app-info-container .heading {
+        width: 60%;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .download-icons {
+        width: 270px;
+    }
+
+
+}
+
 /*mobile app ends */
 
 /* newsletter starts*/
@@ -512,6 +551,7 @@ section {
 @media only screen and (max-width: 600px) {
 
     .news-letter-section {
+        margin-top: 80px;
         height: 40vh;
     }
 
