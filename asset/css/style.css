@@ -249,6 +249,31 @@ section {
     list-style: none;
 }
 
+@media only screen and (max-width: 600px) {
+
+
+    .brand-section {
+        height: 14vh;
+        padding: 0px 16px;
+        overflow-x: scroll;
+    }
+
+    .brand-list {
+        padding: 0;
+        overflow-x: scroll;
+        gap: 16px;
+    }
+
+    .brand-item {
+        overflow-x: visible;
+    }
+
+    .brand-img {
+        width: 60px;
+    }
+
+}
+
 /* brand section ends*/
 
 /* new arrival starts*/
@@ -289,6 +314,8 @@ section {
 .card-text p {
     color: #7F7F7F;
 }
+
+
 
 /*new arrival ends */
 
