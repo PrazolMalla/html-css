@@ -21,6 +21,7 @@
 
 .logo {
     height: 60px;
+    z-index: 3;
 }
 
 .nav-list {
@@ -50,6 +51,19 @@
     border-radius: 7px;
     font-size: 24px;
 }
+
+.hamburger-menu {
+    display: none;
+}
+
+.nav-cross {
+    display: none;
+}
+
+.mobile-nav-bar {
+    display: none;
+}
+
 
 @media only screen and (max-width: 1600px) {
     .logo {
@@ -98,7 +112,7 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 770px) {
     .logo {
         height: 40px;
     }
@@ -110,7 +124,54 @@
     .nav-list {
         display: none;
     }
+
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .mobile-nav-bar {
+        /* display: block; */
+        /* position: fixed; */
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        transition: ease-in 0.4s;
+
+    }
+
+    .mobile-nav-list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 32px 16px;
+    }
+
+    .mobile-nav-link {
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+
+    .mobile-nav-btn {
+        width: 343px;
+        height: 48px;
+        font-size: 16px;
+        border-radius: 4px;
+        padding: 12px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .show {
+        display: block;
+    }
+
 }
+
 
 /* navbar ends*/
 
@@ -1369,7 +1430,7 @@ section {
     gap: 8px;
 }
 
-@media only screen and (max-width: 1600px) {
+. @media only screen and (max-width: 1600px) {
     .social-links-container h1 {
         font-size: 33px;
     }
