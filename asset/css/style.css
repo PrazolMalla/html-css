@@ -18,8 +18,9 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    padding: 68px 82px 0px 82px;
-
+    padding: 46px 82px 0px 82px;
+    margin: 0 auto;
+    max-width: 1720px;
     /* padding: 1rem 4rem; */
     align-items: center;
 }
@@ -208,11 +209,13 @@
 
 section {
     margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-section {
-    margin-left: 64px;
-    margin-right: 64px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     background-color: #F4F6F5;
     padding: 68px 82px 0px 82px;
@@ -237,7 +240,7 @@ section {
 
 
 .hero-text-section {
-    width: 35vw;
+    max-width: 606px;
     /* height: 80vh; */
     display: flex;
     flex-direction: column;
@@ -333,6 +336,7 @@ section {
 
 
     .hero-text-section {
+        width: 35vw;
         padding-top: 9px;
         padding-left: 33px;
         gap: 33px;
@@ -623,6 +627,9 @@ section {
     display: flex;
     align-items: center;
     background-color: #EBD96B;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1920px;
     height: 186px;
     margin-top: 63px;
     padding: 0px 48px;
@@ -720,6 +727,8 @@ section {
 /* new arrival starts*/
 
 .new-arrival {
+
+    max-width: 1630px;
     padding: 0px 104px;
 }
 
@@ -952,6 +961,7 @@ section {
     background-color: #EFD24B;
     width: 100vw;
     max-height: 968px;
+    max-width: 1920px;
 
 }
 
@@ -1239,6 +1249,8 @@ section {
 .favourites-section {
     margin-top: 120px;
     padding: 0px 100px;
+    max-width: 1720px;
+
 }
 
 .favourites-section .card-container {
@@ -1408,6 +1420,7 @@ section {
 .mobile-app-section {
     margin-top: 120px;
     padding: 0px 220px;
+    max-width: 1620px;
 }
 
 .mobile-app-container {
@@ -1621,9 +1634,10 @@ section {
 /* newsletter starts*/
 .news-letter-section {
     margin-top: 120px;
-    /* padding: 0px 64px; */
-    width: 100vw;
-    height: 57vh;
+    padding-top: 114px;
+    padding-bottom: 157px;
+    max-width: 1920px;
+    max-height: 623px;
     color: #fff;
     background-color: #E5C643;
     display: flex;
@@ -1897,7 +1911,10 @@ section {
 
 .footer {
     /* padding: 119px 100px; */
+    margin-left: auto;
+    margin-right: auto;
     background-color: #000;
+    max-width: 1920px;
     color: #fff;
     display: flex;
     justify-content: space-evenly;
