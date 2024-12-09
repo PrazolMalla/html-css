@@ -569,6 +569,46 @@ section {
     }
 }
 
+@media only screen and (max-width: 325px) {
+    .hero-section {
+        max-height: 146px;
+
+    }
+
+    .hero-img {
+        max-width: 146px;
+    }
+
+
+    .hero-img-section {
+        max-height: 146px;
+
+    }
+
+    .hero-text-section {
+        height: 125px;
+        gap: 0px;
+    }
+
+    .hero-section-heading {
+
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .shop-now-btn {
+        width: 66px;
+        height: 28px;
+        font-size: 10px;
+
+    }
+
+    .text-bg-unique::before {
+        transform: translate(-85%, -5%) rotate(-2deg);
+
+    }
+}
+
 /* hero section--ends */
 
 /* brand section starts*/
@@ -1166,6 +1206,13 @@ section {
     }
 }
 
+@media only screen and (max-width: 325px) {
+    .payday-content-container h1 {
+        width: 40vw;
+    }
+}
+
+
 
 
 /* payday ad ends */
@@ -1330,6 +1377,19 @@ section {
 
     .card-text p {
         font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+
+    .favourites-section .card-container {
+
+        gap: 43px;
+    }
+
+    .favourites-card-img {
+        width: 260px;
+
     }
 }
 
@@ -1811,9 +1871,15 @@ section {
 
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 325px) {
     .send-container {
-        width: 220px;
+        width: 280px;
+    }
+
+    .send-container input {
+        width: 280px;
+        font-size: 12px;
+
     }
 }
 
