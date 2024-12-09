@@ -1055,7 +1055,7 @@ section {
 @media only screen and (max-width: 1450px) {
     .payday-section {
         margin-top: 91px;
-        max-height: 732px;
+        max-height: 700px;
 
     }
 
@@ -1066,7 +1066,7 @@ section {
     }
 
     .payday-img-container {
-        margin-top: 72px;
+        margin-top: 40px;
         max-height: 661px;
 
     }
@@ -1078,7 +1078,7 @@ section {
 
     .payday-content-container {
         gap: 23px;
-        margin-top: 30px;
+        margin-top: 60px;
         padding-left: 12px;
         padding-right: 75px;
     }
