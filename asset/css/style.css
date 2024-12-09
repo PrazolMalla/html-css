@@ -873,11 +873,11 @@ section {
 
 
     .card-img {
-        max-width: 180px;
+        width: 180px;
     }
 
     .card-info {
-        max-width: 180px;
+        width: 180px;
     }
 
     .card-text h3 {
@@ -910,13 +910,14 @@ section {
         overflow-x: visible;
     }
 
-    .card-img-container {
-        overflow-x: visible;
-    }
 
     .card-img {
         width: 254px;
         overflow-x: visible;
+    }
+
+    .card-info {
+        width: 254px;
     }
 
     .heading {
@@ -1307,12 +1308,12 @@ section {
 
 @media only screen and (max-width: 770px) {
     .favourites-card-img {
-        max-width: 310px;
+        width: 310px;
     }
 
 
     .favourites-card-info {
-        max-width: 310px;
+        width: 310px;
     }
 
     .favourites-section {
@@ -1911,7 +1912,7 @@ section {
 .links-container ul {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 20px;
     padding: 0;
 }
 
@@ -1953,7 +1954,7 @@ section {
     gap: 8px;
 }
 
-. @media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1600px) {
     .social-links-container h1 {
         font-size: 33px;
     }
@@ -1998,7 +1999,7 @@ section {
         justify-content: space-between;
         align-items: flex-start;
         padding: 24px 16px;
-        gap: 64px;
+        gap: 56px;
     }
 
     .social-links-container {
@@ -2026,6 +2027,11 @@ section {
 
     .links-container p {
         font-size: 14px;
+    }
+
+    .links-container ul {
+
+        gap: 12px;
     }
 }
 
