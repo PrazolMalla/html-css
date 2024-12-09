@@ -9,6 +9,11 @@
 
 /* navbar starts*/
 
+.overflow {
+    height: 100vh;
+    overflow: hidden;
+}
+
 
 .nav {
     display: flex;
@@ -111,7 +116,7 @@
 
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1050px) {
     .logo {
         height: 32px;
     }
@@ -407,7 +412,7 @@ section {
 
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1050px) {
     .hero-section {
         margin-left: 34px;
         margin-right: 34px;
@@ -828,7 +833,7 @@ section {
 }
 
 
-@media only screen and (max-width:1030px) {
+@media only screen and (max-width:1050px) {
     .new-arrival {
         padding: 0px 55px;
     }
@@ -1097,7 +1102,7 @@ section {
 
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1050px) {
     .payday-section {
         margin-top: 65px;
         max-height: 500px;
@@ -1286,7 +1291,7 @@ section {
     }
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1050px) {
     .favourites-card-img {
         max-width: 450px;
     }
@@ -1487,7 +1492,7 @@ section {
     }
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1050px) {
     .mobile-app-section {
         margin-top: 65px;
         padding: 0px 118.5px;
@@ -1753,7 +1758,7 @@ section {
     }
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1050px) {
     .news-letter-section {
         margin-top: 65px;
 
@@ -1791,7 +1796,7 @@ section {
     }
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1050px) {
     .news-letter-section {
         margin-top: 55px;
 
