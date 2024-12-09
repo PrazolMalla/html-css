@@ -244,6 +244,8 @@ section {
     overflow-y: hidden;
     font-size: 96px;
     line-height: 120px;
+    padding-left: 16px;
+
     /* padding: 16px; */
 }
 
@@ -272,7 +274,7 @@ section {
     left: 50%;
     width: 555px;
     height: 90px;
-    transform: translate(-50%, -50%) rotate(-2deg);
+    transform: translate(-50%, -55%) rotate(-2deg);
     z-index: -1;
     transform-origin: center;
     background: white;
@@ -292,7 +294,7 @@ section {
     left: 50%;
     width: 475px;
     height: 90px;
-    transform: translate(-85%, -4%) rotate(-2deg);
+    transform: translate(-88%, 3%) rotate(-2deg);
     z-index: -1;
     transform-origin: center;
     background: #EBD96B;
@@ -465,7 +467,7 @@ section {
 
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 770px) {
 
 
     .hero-img-section {
