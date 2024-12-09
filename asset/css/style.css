@@ -13,7 +13,9 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 4rem;
+    padding: 68px 82px 0px 82px;
+
+    /* padding: 1rem 4rem; */
     align-items: center;
 }
 
@@ -616,7 +618,7 @@ section {
     display: flex;
     align-items: center;
     background-color: #EBD96B;
-    max-height: 186px;
+    height: 186px;
     margin-top: 63px;
     padding: 0px 48px;
 }
