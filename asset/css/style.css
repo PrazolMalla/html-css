@@ -693,7 +693,6 @@ section {
 
     max-width: 1630px;
     width: 100%;
-    padding-left: 82px;
     /* padding-right: 178px; */
     box-sizing: border-box;
 }
@@ -770,6 +769,11 @@ section {
 }
 
 @media only screen and (max-width:1600px) {
+
+    .new-arrival {
+        padding-left: 82px;
+
+    }
 
     .heading {
         font-size: 40px;
@@ -978,7 +982,7 @@ section {
 }
 
 .payday-content-container {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -990,7 +994,7 @@ section {
 
 .payday-content-container h1 {
     width: 100%;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     font-size: 111px;
     line-height: 137px;
 
@@ -1038,12 +1042,12 @@ section {
 
     .payday-img-container {
         height: 734px;
-        overflow-y: hidden;
+        /* overflow-y: hidden; */
     }
 
     .payday-content-container {
         gap: 26.5px;
-        margin-top: 33px;
+        margin-top: 10px;
         padding-left: 13px;
         padding-right: 83px;
     }
@@ -1063,7 +1067,7 @@ section {
 @media only screen and (max-width: 1450px) {
     .payday-section {
         margin-top: 91px;
-        height: 700px;
+        max-height: 700px;
 
     }
 
@@ -1081,13 +1085,15 @@ section {
 
 
     .payday-content-container {
+        width: 70%;
         gap: 23px;
-        margin-top: 60px;
+        margin-top: 20px;
         padding-left: 12px;
         padding-right: 75px;
     }
 
     .payday-content-container h1 {
+        width: 100%;
         font-size: 88px;
         line-height: 103px;
 
@@ -1143,11 +1149,50 @@ section {
 }
 
 
+@media only screen and (max-width: 770px) {
+    .payday-section {
+        margin-top: 55px;
+        height: 400px;
+
+    }
+
+    .payday-container {
+        padding: 0 43px;
+        padding-top: 49px;
+        gap: 65px;
+    }
+
+    .payday-img-container {
+        margin-top: 30px;
+        height: 400px;
+    }
+
+    .payday-content-container {
+        width: 70%;
+        gap: 16px;
+        margin-top: 8px;
+        padding-left: 8px;
+        padding-right: 45px;
+    }
+
+    .payday-content-container h1 {
+        width: 100%;
+        font-size: 41px;
+        line-height: 56px;
+
+    }
+
+    .payday-content-container p {
+        font-size: 16px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .payday-section {
         margin-top: 50px;
         padding: 0 20px;
-        max-height: 190px;
+        max-height: 195px;
+        box-sizing: border-box;
 
     }
 
@@ -1155,29 +1200,32 @@ section {
         margin-top: 1px;
         padding: 0;
         /* padding-bottom: 8px; */
-        gap: 35px;
+        gap: 25px;
 
 
     }
 
     .payday-img-container {
+        width: 50%;
         margin-top: 0px;
         max-width: 151px;
 
     }
 
     .payday-img {
+
         padding-top: 38px;
         max-width: 140px;
     }
 
     .payday-content-container {
+        width: 90%;
         margin-top: 13px;
         padding-right: 16px;
     }
 
     .payday-content-container h1 {
-        width: 33vw;
+        width: 100%;
         font-size: 20px;
         line-height: 30px;
 
@@ -1199,15 +1247,11 @@ section {
 }
 
 
-@media only screen and (max-width: 770px) {
-    .payday-content-container h1 {
-        width: 30vw;
-    }
-}
+
 
 @media only screen and (max-width: 325px) {
     .payday-content-container h1 {
-        width: 40vw;
+        width: 50%;
     }
 }
 
@@ -1217,6 +1261,15 @@ section {
 /* payday ad ends */
 
 /* young favorite starts */
+
+.favourites-section {
+    max-width: 1720px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+
+}
+
 
 .favourites-card-img-container {
     width: 834px;
@@ -1236,18 +1289,19 @@ section {
 
 .favourites-card-info {
     max-width: 834px;
+    width: 100%;
     padding: 0;
 }
 
 .favourites-section {
     margin-top: 120px;
-    padding: 0px 100px;
-    max-width: 1720px;
 
 }
 
 .favourites-section .card-container {
-
+    /* max-width: 1720px;
+    width: 100%; */
+    box-sizing: border-box;
     gap: 48px;
     /* margin-top: 16px; */
 }
@@ -1298,7 +1352,7 @@ section {
     }
 }
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1200px) {
 
     .favourites-card-img-container {
         width: 440px;
@@ -1670,11 +1724,13 @@ section {
     padding-bottom: 157px;
     max-width: 1920px;
     max-height: 623px;
+    width: 100%;
     color: #fff;
     background-color: #E5C643;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 
 }
 
