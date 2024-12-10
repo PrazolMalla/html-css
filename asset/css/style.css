@@ -891,7 +891,9 @@ section {
 @media only screen and (max-width: 916px) {
     .new-arrival {
         margin-top: 50px;
-        padding: 0 16px;
+        padding-left: 16px;
+
+        /* padding: 0 16px; */
     }
 
     .card-container {
@@ -1041,6 +1043,7 @@ section {
     }
 
     .payday-img-container {
+        margin-top: 3%;
         height: 734px;
         /* overflow-y: hidden; */
     }
@@ -1078,7 +1081,7 @@ section {
     }
 
     .payday-img-container {
-        margin-top: 40px;
+        margin-top: 3%;
         height: 661px;
 
     }
@@ -1119,12 +1122,13 @@ section {
     }
 
     .payday-img-container {
-        margin-top: 30px;
+        margin-top: 5%;
         height: 472px;
         overflow-y: hidden;
     }
 
     .payday-content-container {
+        width: 60%;
         gap: 16px;
         margin-top: 8px;
         padding-left: 8px;
@@ -1132,6 +1136,7 @@ section {
     }
 
     .payday-content-container h1 {
+        width: 100%;
         font-size: 41px;
         line-height: 56px;
 
@@ -1163,7 +1168,7 @@ section {
     }
 
     .payday-img-container {
-        margin-top: 30px;
+        margin-top: 10%;
         height: 400px;
     }
 
@@ -1206,8 +1211,8 @@ section {
     }
 
     .payday-img-container {
-        width: 50%;
-        margin-top: 0px;
+        margin: 0;
+        width: 100%;
         max-width: 151px;
 
     }
@@ -1222,6 +1227,7 @@ section {
         width: 90%;
         margin-top: 13px;
         padding-right: 16px;
+        gap: 8px;
     }
 
     .payday-content-container h1 {
@@ -1239,11 +1245,6 @@ section {
     .payday-content-container p {
         font-size: 8px;
     }
-
-    .payday-content-container {
-        width: 40vw;
-        gap: 8px;
-    }
 }
 
 
@@ -1251,7 +1252,7 @@ section {
 
 @media only screen and (max-width: 325px) {
     .payday-content-container h1 {
-        width: 50%;
+        width: 100%;
     }
 }
 
@@ -1342,7 +1343,8 @@ section {
 
     .favourites-section {
         margin-top: 91px;
-        padding: 0px 75px;
+        padding: 0;
+        padding-left: 63px;
     }
 
     .favourites-section .card-container {
@@ -1370,7 +1372,8 @@ section {
 
     .favourites-section {
         margin-top: 65px;
-        padding: 0px 53px;
+        padding: 0;
+        padding-left: 53px;
     }
 
     .favourites-section .card-container {
@@ -1398,7 +1401,8 @@ section {
 
     .favourites-section {
         margin-top: 65px;
-        padding: 0px 60px;
+        padding: 0px;
+        padding-left: 60px;
     }
 
     .favourites-section .card-container {
@@ -1417,7 +1421,8 @@ section {
 
     .favourites-section {
         margin-top: 60px;
-        padding: 0 16px;
+        padding: 0;
+        padding-left: 16px;
     }
 
     .favourites-section .card-container {
